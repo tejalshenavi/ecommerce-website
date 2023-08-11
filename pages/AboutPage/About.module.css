@@ -1,0 +1,28 @@
+.about {
+  margin: 20px 100px 20px 100px;
+  padding: 30px;
+  display: flex;
+  font-family: 'Roboto', sans-serif;;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+  border: 1px solid;
+}
+
+
+h2 {
+    margin-top: 2rem;
+    padding: 1px;
+    font-style: italic;
+}
+
+.image {
+    padding: 3px;
+    margin: 5px;
+    display: inline-flex;
+    border-radius: 50%;
+    object-fit: cover;
+    max-width: fit-content;
+    max-height: 200px;
+    /* position: absolute; */
+}
